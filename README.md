@@ -2,17 +2,6 @@
 1- INFORMATION GATHERING: Information gathering is a part of hunting security bugs.
 Attack Surface Reconnaisance – Strategies and the Value of Standardization
 
-***The Technology Stack: Identify the technologies used
-- One of the first tasks I do when testing a new application is identify the
-technologies being used. This includes, but isn’t limited to, frontend
-JavaScript frameworks, server-side application frameworks, third-party
-services, locally hosted files, remote files, and so on.
-- Having the knowledge about the framework used to develop a website gives
-you an advantage in identifying the vulnerabilities that may exist in the
-unpatched versions.
-- Look for what the underlying tech is. useful tool for this is nmap again & for web apps
-specifically wappalyzer
-
 ***Identifying virtual hosts: Multiple websites are commonly deployed on the same physical server.
 - The websites of many organizations are hosted by service providers using
 shared resources. The sharing of IP addresses is one of the most useful and
@@ -120,6 +109,17 @@ can search for and analyze them in real time. You will be able to understand you
 network attack surface, discover new threats, and assess their global impact
 [https://censys.io/].
 - Utilize the waybackmachine for finding forgotten endpoints
+
+***The Technology Stack: Identify the technologies used
+- One of the first tasks I do when testing a new application is identify the
+technologies being used. This includes, but isn’t limited to, frontend
+JavaScript frameworks, server-side application frameworks, third-party
+services, locally hosted files, remote files, and so on.
+- Having the knowledge about the framework used to develop a website gives
+you an advantage in identifying the vulnerabilities that may exist in the
+unpatched versions.
+- Look for what the underlying tech is. useful tool for this is nmap again & for web apps
+specifically wappalyzer
 
 ***Identifying New Fuctionality:
 - You can also discover new site functionality by tracking JavaScript files.
